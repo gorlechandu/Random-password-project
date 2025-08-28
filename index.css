@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Background and text color */
+body {
+  background: #002339;
+  color: #fff;
+}
+
+/* Main container */
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+/* Heading styles */
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.container h1 span {
+  color: #00ff88;
+  border-bottom: 5px solid #008000;
+}
+
+/* Display box for password */
+.display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Button styling */
+button {
+  border: 0;
+  outline: 0;
+  background: #00ff88;
+  color: #333;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00cc6a;
+}
